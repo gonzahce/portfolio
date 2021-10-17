@@ -1,10 +1,12 @@
 <?php
 
+session_start();
+
 #Constantes de conexión
 define ('DB_HOST','localhost');
 define ('DB_USER','root');
 define ('DB_PASS','');
-define ('DB_NAME','cms');
+define ('DB_NAME','portfolio');
 
 #Constantes de la APP
 define('HTML_DIR','html/');
