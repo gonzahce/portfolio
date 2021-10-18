@@ -18,11 +18,11 @@ define('APP_URL','http://localhost/portfolio/');
 
 require('core/models/class.Conexion.php');
 require('core/bin/functions/Users.php');
+require('core/bin/functions/Encrypt.php');
 
 $_users = Users();
 /*
 require('vendor/autoload.php'); 
-require('core/bin/functions/Encrypt.php');
 require('core/bin/functions/Foros.php');
 require('core/bin/functions/Categorias.php');
 require('core/bin/functions/UrlAmigable.php');

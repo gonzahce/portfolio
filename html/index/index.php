@@ -12,6 +12,7 @@ if(isset($_SESSION['app_id'])) {
     echo '<button type="button" onclick="goLogin()">Iniciar Sesión</button>';
     echo '</div>';
     echo '<div id="_AJAX_LOGIN_"></div>';
+    echo '<a href="?view=reg">Registrar</a>';
 } ?>
 
 
