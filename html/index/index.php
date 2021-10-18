@@ -4,7 +4,7 @@
 
 <?php
 if(isset($_SESSION['app_id'])) {
-    echo '<a href="?view=logout">Logout</a>';
+    echo '<a href="?view=logout">'. strtoupper($_users[$_SESSION['app_id']]['user']) .'</a>';
 } else {
     echo '<div role="form" onkeypress="return runScriptLogin(event)">';
     echo '<input type="text" id="user" placeholder="Introducir Email">';
