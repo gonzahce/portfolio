@@ -21,6 +21,7 @@ require('core/bin/functions/Users.php');
 require('core/bin/functions/Encrypt.php');
 
 $_users = Users();
+
 /*
 require('vendor/autoload.php'); 
 require('core/bin/functions/Foros.php');
@@ -30,4 +31,5 @@ require('core/bin/functions/EmailTemplate.php');
 require('core/bin/functions/LostpassTemplate.php');
 
 $_categorias = Categorias();
-$_foros = Foros(); */
+$_foros = Foros();
+*/
