@@ -4,7 +4,7 @@ class Conexion extends mysqli{
   public function __construct(){
     parent::__construct(DB_HOST,DB_USER,DB_PASS,DB_NAME);
     $this->connect_errno ? die('Error') : null;
-    $this->set_charset("utf-8");
+    // $this->set_charset("utf-8");
   }
   public function rows($query){
     return mysqli_num_rows($query);
